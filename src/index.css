@@ -1,0 +1,12 @@
+@import "tailwindcss";
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+body{
+  background-color: lightseagreen;
+}
+
+.card:hover {
+  box-shadow: 5px 10px 20px 1px rgba(32, 30, 30, 0.856) !important;
+  transition: all 0.2s linear;
+  transform: scale(1.1);
+}
